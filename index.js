@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express')
 const app = express()
 const port = 5000
-
+const fetch = require("node-fetch");
 //const cookie = '__Secure-1PSID=<YOUR_1PSID_COOKIE>';
 const cookie = '__Secure-1PSID='+ process.env.PSID_COOKIE;
 app.get('/ask/:question', async (req, resp) => {
