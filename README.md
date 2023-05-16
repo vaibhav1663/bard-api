@@ -9,13 +9,17 @@ Never expose the `__Secure-1PSID` for your safety.
 > This refreses in 12 days so you have to change it manually
 > 
 <br>
+
 ## Authentication
 1. Visit https://bard.google.com/
 2. F12 for console
 3. Session: Application → Cookies → Copy the value of  `__Secure-1PSID` cookie.
 <br>
+
 ![Image : how to get cookie](/../master/screenshots/cookie.png?raw=true)
+
 <br>
+
 ## Install
 Install all dependancies from npm:
 ```
